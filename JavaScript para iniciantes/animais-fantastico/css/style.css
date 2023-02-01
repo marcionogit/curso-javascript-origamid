@@ -1,0 +1,116 @@
+body{
+    background-color: #FAF6ED;
+    color: #111111;
+    padding: 0;
+    margin: 0;
+}
+
+img{
+    display: block;
+    max-width: 100%;
+}
+
+.container{
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.menu{
+    background-color: #FFBB55;
+    display: flex;
+    gap: 30px;
+    padding: 20px 20px;
+    margin-left: 290px;
+    margin-top: 30px;
+}
+
+.menu a{
+    display: block;
+    text-decoration: none;
+    color: #000000;
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.main-body h1, h2{
+    font-family: 'Playfair Display SC', georgia;
+    font-size: 6rem;
+    font-weight: 400;
+    max-width: 400px;
+    line-height: 1;
+    margin-top: 44px;
+    margin-bottom: 22px;
+}
+
+.main-body h3{
+    font-family: 'IBM Plex Mono', monospace;
+    font-weight: 600;
+    font-size: 1rem;
+    color:#E54;
+}
+
+.main-body h3::before{
+    content: '';
+    display: inline-block;
+    background-color: #FFBB55;
+    width: 40px;
+    height: 10px;
+    margin-right: 10px;
+}
+
+.conteudo{
+    display: grid;
+    grid-template-columns: auto 1fr;
+    gap: 40px;
+    padding-left: 70px;
+}
+
+
+.imagens {
+    max-width: 280px;
+    height: 350px;
+
+    overflow-y: scroll;
+}
+
+.conteudo p {
+    line-height: 1.2;
+    font-size: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 55ch;
+}
+
+ul{
+    list-style: none;
+}
+
+dl{
+    max-width: 800px;
+    margin: 0 auto;
+
+}
+
+dl dt{
+    font-family: 'IBM Plex Mono', monospace;
+    font-weight: 600;
+    font-size: 1rem;
+    color:#E54;
+}
+
+dl dt::before{
+    content: '';
+    display: inline-block;
+    background-color: #FFBB55;
+    width: 20px;
+    height: 10px;
+    margin-right: 10px;
+
+}
+
+dl dd{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 20px;
+    font-size: 1rem;
+}
+
